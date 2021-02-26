@@ -2,20 +2,137 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Engineering Team 4</title>
-	<style type="text/css" media="screen">
-		html {
-			font-family: 'Courier New', monospace;
-			background-color: #000000;
-			color: #FFFFFF;
-		}
-	</style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Engineering Team 4</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
 </head>
 
-<body>
-	<h1 style="color: lime;">Honors Engineering Team 4</h1>
-	<h2 style="color: #9900ff;">Donation Contraption Project</h2>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Engineering Team 4</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#donate">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">Overview</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Welcome to Yeezy Bot's Webpage</h1>
+      <br>
+      <p class="lead">Once you've donated, complete <a href="https://docs.google.com/forms/d/e/1FAIpQLScqgDno0pRCLo8Bklx9sZAuayR2vMVaMQVMaeDnTNXbB1dmxg/viewform?usp=sf_link">this form</a> to be sent your personalized thank you video!</p>
+      <br>
+      <p>Meet Yeezy Bot:</p>
+      <img  width="560" src="Screenshot (22).png" alt="Sample Image">
+    </div>
+  </header>
+
+  <section id="about" class="bg-light-alt">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="font-weight-bold">About</h2>
+          <p class="lead">Donate to the Food Bank of Central & Eastern North Carolina! Keep your Transaction ID and we'll share a video of our robot dancing to a Kanye song of your choice! Options include Power, Runaway, Stronger, Young Gentlemen in Paris, and Heartless.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="font-weight-bold">Team</h2>
+          <p class="lead">Meet the team.</p>
+          <ul>
+            <li class="lead">Matt - Python Software Engineer</li>
+            <li class="lead">Nate - Electrical Engineer</li>
+            <li class="lead">MaLea - Mechanical Engineer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="donation">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="font-weight-bold">Donate</h2>
+          <h4>Food Bank of Central and Eastern North Carolina</h4>
+          <p class="lead">The Food Bank of Central & Eastern North Carolina is a nonprofit organization that has provided food for our friends and neighbors facing hunger in 34 counties in central and eastern North Carolina for 40 years. The Food Bank works across the food system to provide access to nutritious food that nourishes families, children, seniors, and individuals. Through partnerships, education, and programs, the Food Bank empowers communities to overcome hunger, creating an environment where all North Carolinians thrive.</p>
+          <h4><a href="https://foodbankcenc.org/">CENC Food Bank Website</a></h4>
+          <h4><a href="https://secure.foodbankcenc.org/site/Donation2?df_id=10523&mfc_pref=T&10523.donation=form1&chosen=60&s_src=headerbutton&s_subsrc=website">Donation Link</a></h4>
+          <h4><a href="https://docs.google.com/forms/d/e/1FAIpQLScqgDno0pRCLo8Bklx9sZAuayR2vMVaMQVMaeDnTNXbB1dmxg/viewform?usp=sf_link">Form for Personalized Thank You Video</a></h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="font-weight-bold">Project Overview</h2>
+          <p class="lead">The goal is to create a contraption that motivates people to donate like the common dunking booth or coin funnel. So far in H. Engineering A we’ve all learned a little slice of website development, software engineering, electrical engineering, and mechanical engineering, so we’re combining all these skills into a collaborative project to demonstrate capability and raise money for charity. Our job is to create a website that offers some form of video entertainment in exchange for a monetary donation to our charity, so our group has decided to build a robot that sings and dances Kanye songs. When a user makes a donation and submits the request form, it triggers the python script to begin recording and activate the arduino. Then, the arduino powers and coordinates the robot's song and dance. The user then receives the video via email.
+          </p>
+          <h4 class="text-center"> Picture High-level block diagram.</h4>
+          <div style="text-align: center;">
+          <img width="560" src="Preliminary design review.jpg" alt="Sample Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Team 4 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
 
